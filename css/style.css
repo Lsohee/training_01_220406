@@ -25,13 +25,14 @@
   width:100%;
   height:55%;
   background-color: #7f7f7f;
+  border-radius: 20px 20px 0px 0px;
   /* display:flex ;
   flex-direction: column;
   justify-content: space-around; */
 }
 
 #root>div>div{
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /*     기본 설정     */
@@ -47,9 +48,10 @@
   justify-content: space-around;
 }
 
+
 #root>div>div:nth-child(1)>div:nth-child(2){
   display: flex;
-  
+
 }
 
 #root>div>div:nth-child(1)>div:nth-child(2)>div{
@@ -85,7 +87,11 @@
 #root>div>div:nth-child(2)>div:nth-child(2){
   background-color: white;
   width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height:40%;
+  border-radius: 30px;
 }
 
 
@@ -108,12 +114,17 @@
 #root>div>div:nth-child(3)>div:nth-child(2){
   background-color: white;
   width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height:40%;
+  border-radius: 30px;
+
 }
 
 /* 로그인 */
 #root>div>div:nth-child(4){
-  width:100%;
+  width:97%;
   height:40%;
   display: flex;
   flex-direction: column;
@@ -128,6 +139,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  border-radius: 30px;
   top:20px;
   font-size: larger;
   background-color: #c8c8c8;
